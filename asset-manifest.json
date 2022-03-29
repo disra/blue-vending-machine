@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blue-vending-machine-frontend/static/css/main.fc04f565.css",
+    "main.js": "/blue-vending-machine-frontend/static/js/main.18cf4c13.js",
+    "static/js/787.5f091b19.chunk.js": "/blue-vending-machine-frontend/static/js/787.5f091b19.chunk.js",
+    "index.html": "/blue-vending-machine-frontend/index.html",
+    "main.fc04f565.css.map": "/blue-vending-machine-frontend/static/css/main.fc04f565.css.map",
+    "main.18cf4c13.js.map": "/blue-vending-machine-frontend/static/js/main.18cf4c13.js.map",
+    "787.5f091b19.chunk.js.map": "/blue-vending-machine-frontend/static/js/787.5f091b19.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc04f565.css",
+    "static/js/main.18cf4c13.js"
+  ]
+}

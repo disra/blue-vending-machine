@@ -7,7 +7,7 @@ from Product import Product
 from UpdateProduct import UpdateProduct
 from fastapi.middleware.cors import CORSMiddleware
 
-origins = ["https://disra.gitlab.io"] # This will eventually be changed to only the origins you will use once it's deployed, to secure the app a bit more.
+origins = ["https://disra.github.io"] # This will eventually be changed to only the origins you will use once it's deployed, to secure the app a bit more.
 
 app = FastAPI()
 

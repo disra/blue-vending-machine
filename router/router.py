@@ -128,7 +128,7 @@ def calculate(coinInsert: CoinInsert):
         return {"Error": "Not enough money for purchase"}
 
     tempCoinStock = coinstocks
-    if changes > 0:
+    if changes >= 0:
         for coin in inserted:
             tempCoinStock[int(coin['id'])]['amount'] += coin['amount']
 

@@ -7,8 +7,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 from router import router
 
-origins = ["http://localhost",
-           "http://localhost:8000", "http://disra.gitlab.io", "https://disra.gitlab.io"]
+origins = ['https://disra.gitlab.io/bluepi-vending-machine-challenge/']
 
 app = FastAPI()
 
@@ -23,6 +22,7 @@ app.add_middleware(
 app.mount("/static", StaticFiles(directory="static"), name="static")
 
 templates = Jinja2Templates(directory="templates")
+
 
 @app.get("/")
 async def serve_spa(request: Request):

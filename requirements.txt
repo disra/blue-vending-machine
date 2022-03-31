@@ -1,0 +1,6 @@
+uvicorn
+fastapi
+gunicorn
+numpy
+python-dotenv == 0.19.0
+jinja2
